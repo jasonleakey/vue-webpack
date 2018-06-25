@@ -50,11 +50,6 @@ module.exports = {
     {{#if_eq lintConfig "airbnb"}}
     'no-param-reassign': ['error', {
       props: false,
-      ignorePropertyModificationsFor: [
-        'state', // for vuex state
-        'acc', // for reduce accumulators
-        'e' // for e.returnvalue
-      ]
     }],
     semi: ['error', 'never'],
       'import/no-extraneous-dependencies': ['error', {
