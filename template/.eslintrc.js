@@ -56,20 +56,20 @@ module.exports = {
         'e' // for e.returnvalue
       ]
     }],
-      semi: ['error', 'never'],
+    semi: ['error', 'never'],
       'import/no-extraneous-dependencies': ['error', {
       'devDependencies': true,
       optionalDependencies: ['test/unit/index.js'],
     }],
-      'indent': 'off',
-      'vue/script-indent': ['error', 2, {
+    'indent': 'off',
+    'vue/script-indent': ['error', 2, {
       'baseIndent': 1,
       'switchCase': 1
     }],
-      'import/extensions': ['error', 'never'],
-      'no-console': 'off',
-      'import/no-named-as-default': 0,
-      'class-methods-use-this': ['off'],
+    'import/extensions': ['error', 'never'],
+    'no-console': 'off',
+    'import/no-named-as-default': 0,
+    'class-methods-use-this': ['off'],
     {{/if_eq}}
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
