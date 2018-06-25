@@ -1,3 +1,14 @@
+{{#pug}}
+<template lang="pug">
+  #app
+    img(src="./assets/logo.png")
+    {{#router}}
+    router-view
+    {{else}}
+    HelloWorld
+    {{/router}}
+</template>
+{{else}}
 <template>
   <div id="app">
     <img src="./assets/logo.png">
@@ -8,6 +19,7 @@
     {{/router}}
   </div>
 </template>
+{{/pug}}
 
 <script>
 {{#unless router}}

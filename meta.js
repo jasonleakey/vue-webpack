@@ -74,6 +74,11 @@ module.exports = {
       type: 'confirm',
       message: 'Install vue-router?',
     },
+    pug: {
+      when: 'isNotTest',
+      type: 'confirm',
+      message: 'Install Pug?',
+    },
     lint: {
       when: 'isNotTest',
       type: 'confirm',

@@ -78,7 +78,21 @@ module.exports = {
           limit: 10000,
           name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
         }
-      }
+      }{{#pug}},
+      {
+        test: /\.pug$/,
+        oneOf: [
+          // this applies to `<template lang="pug">` in Vue components
+          {
+            resourceQuery: /^\?vue/,
+            use: ['pug-plain-loader']
+          },
+          // this applies to pug imports inside JavaScript
+          {
+            use: ['raw-loader', 'pug-plain-loader']
+          }
+        ],
+      },{{/pug}}
     ]
   },
   node: {

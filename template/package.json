@@ -82,6 +82,10 @@
     "nightwatch": "^0.9.12",
     "selenium-server": "^3.0.1",
     {{/e2e}}
+    {{#pug}}
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    {{/pug}}
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
