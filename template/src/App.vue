@@ -34,8 +34,13 @@ export default {
 }
 </script>
 
-<style>
-#app {
+<style lang="scss">
+  {{#bootstrap}}
+  @import "~bootstrap/scss/bootstrap";
+  @import "./assets/custom-bootstrap";
+  {{/bootstrap}}
+
+  #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

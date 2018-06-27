@@ -79,6 +79,11 @@ module.exports = {
       type: 'confirm',
       message: 'Install Pug?',
     },
+    bootstrap: {
+      when: 'isNotTest',
+      type: 'confirm',
+      message: 'Install Bootstrap?',
+    },
     lint: {
       when: 'isNotTest',
       type: 'confirm',

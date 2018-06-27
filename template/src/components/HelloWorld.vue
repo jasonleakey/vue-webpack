@@ -34,6 +34,11 @@
       li
         a(href="https://github.com/vuejs/awesome-vue", target="_blank")
           | awesome-vue
+      {{#bootstrap}}
+      li
+        button.btn-success.btn
+          | dumb button
+      {{/bootstrap}}
 </template>
 {{else}}
 <template>
@@ -117,6 +122,13 @@
           awesome-vue
         </a>
       </li>
+      {{#bootstrap}}
+      <li>
+        <button class="btn btn-success">
+          dumb button
+        </button>
+      </li>
+      {{/bootstrap}}
     </ul>
   </div>
 </template>

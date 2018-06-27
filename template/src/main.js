@@ -7,6 +7,10 @@ import App from './App'
 {{#router}}
 import router from './router'
 {{/router}}
+{{#bootstrap}}
+import './plugin/bootstrap'
+{{/bootstrap}}
+
 
 Vue.config.productionTip = false
 

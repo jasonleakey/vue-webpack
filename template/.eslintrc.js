@@ -63,6 +63,7 @@ module.exports = {
     }],
     'import/extensions': ['error', 'never'],
     'no-console': 'off',
+    'import/prefer-default-export': 'off',
     'import/no-named-as-default': 0,
     'class-methods-use-this': ['off'],
     {{/if_eq}}
