@@ -84,6 +84,11 @@ module.exports = {
       type: 'confirm',
       message: 'Install Bootstrap?',
     },
+    fontawesome: {
+      when: 'isNotTest',
+      type: 'confirm',
+      message: 'Install Font Awesome?',
+    },
     lint: {
       when: 'isNotTest',
       type: 'confirm',

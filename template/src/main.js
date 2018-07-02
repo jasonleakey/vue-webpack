@@ -10,7 +10,9 @@ import router from './router'
 {{#bootstrap}}
 import './plugin/bootstrap'
 {{/bootstrap}}
-
+{{#fontawesome}}
+import './plugin/fontawesome'
+{{/fontawesome}}
 
 Vue.config.productionTip = false
 
