@@ -103,10 +103,14 @@
           href="http://vuex.vuejs.org/"
           target="_blank"
         >
+          Mission 4
+
           vuex
         </a>
       </li>
       <li>
+        Mission 3
+
         <a
           href="http://vue-loader.vuejs.org/"
           target="_blank"
@@ -125,6 +129,9 @@
       {{#bootstrap}}
       <li>
         <button class="btn btn-success">
+          {{#fontawesome}}
+          <font-awesome-icon :icon="['fab', 'vuejs']" />
+          {{/fontawesome}}
           dumb button
         </button>
       </li>

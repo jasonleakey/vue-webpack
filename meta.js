@@ -31,7 +31,7 @@ module.exports = {
       return templateVersion
     },
   },
-  
+
   prompts: {
     name: {
       when: 'isNotTest',
@@ -74,10 +74,10 @@ module.exports = {
       type: 'confirm',
       message: 'Install vue-router?',
     },
-    pug: {
+    vuex: {
       when: 'isNotTest',
       type: 'confirm',
-      message: 'Install Pug?',
+      message: 'Install vuex?',
     },
     bootstrap: {
       when: 'isNotTest',

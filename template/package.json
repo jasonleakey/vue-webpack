@@ -30,11 +30,12 @@
     "bootstrap": "^4.1.1",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.3"{{/bootstrap}}{{#fontawesome}},
-    "@fortawesome/fontawesome": "^1.1.8",
-    "@fortawesome/fontawesome-free-brands": "^5.0.13",
-    "@fortawesome/fontawesome-free-regular": "^5.0.13",
-    "@fortawesome/fontawesome-free-solid": "^5.0.13",
-    "@fortawesome/vue-fontawesome": "0.0.22"{{/fontawesome}}
+    "@fortawesome/fontawesome-svg-core": "^1.2.0",
+    "@fortawesome/free-brands-svg-icons": "^5.1.0",
+    "@fortawesome/free-regular-svg-icons": "^5.1.0",
+    "@fortawesome/free-solid-svg-icons": "^5.1.0",
+    "@fortawesome/vue-fontawesome": "^0.1.0"{{/fontawesome}}{{#vuex}},
+    "vuex": "^3.0.1"{{/vuex}}
   },
   "devDependencies": {
     {{#lint}}
